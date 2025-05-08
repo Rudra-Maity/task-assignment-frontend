@@ -9,7 +9,7 @@ import Hero from './components/HeroLayout';
 import Footer from './components/Footer';
 import Table from './components/Table';
 
-export default function TodoApp() {
+export default function Page() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isThankYouModalOpen, setIsThankYouModalOpen] = useState(false);
   const [formData, setFormData] = useState({
